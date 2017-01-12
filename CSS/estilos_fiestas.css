@@ -1,0 +1,94 @@
+body{
+	background:url(../fiestas/imagenes/fondo.jpg);
+	font-family:"Eras Bold ITC";
+}
+	
+#contenedor{
+	
+	background-image:url(../fiestas/imagenes/reflejo.png);
+	background-repeat: no-repeat;
+	background-position:center top;
+	width:auto;
+	height:auto;
+	margin-top:-45;
+}
+
+h1{
+	font-size:35pt;
+	color:#929292;
+	text-shadow: 5px 0px 5px #000000;
+	padding-top:75;
+	padding-left:215;
+}
+
+#contenedor_del_contenido{
+	background:#929292;
+	width:700;
+	height:2000;
+	margin-left:60;
+	box-shadow: 3px 12px 21px #000000;
+}
+
+#fecha{
+	background:#929292;
+	width:500;
+	height:40;
+	margin-left:100;
+	box-shadow: 3px 12px 21px #000000;
+	position:absolute;
+	top:130;
+}
+
+#fecha h3{
+	margin-top:8;
+	margin-left:15
+}
+
+#foto img{
+	width:660;
+    margin-left:20;
+	margin-top:20;
+}
+
+#contenedor_de_los_apartados{
+	background:#3d3d3d;
+	width:660;
+    height:1000;
+	margin-left:20;
+	margin-top:20;
+}
+
+h2{
+	padding-top:20;
+	font-size:18pt;
+	color:#ffffff;
+}
+
+p{
+	font-size:12pt;
+	color:#929292;
+	padding-bottom:20;
+}
+
+h2,p{margin-left:20;}
+
+#mapa_google{
+	background:#929292;
+	width:620;
+    height:380;
+	margin-left:20;
+	margin-top:20;
+	box-shadow: 3px 12px 21px #000000;
+}
+iframe {
+	margin-left:10;
+	margin-top:10;
+
+
+}
+
+#redes_sociales a{
+	width:10;
+    height:10;
+
+}

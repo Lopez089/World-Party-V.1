@@ -1,0 +1,516 @@
+body{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	height:100%;
+	
+}
+
+#contenedor{
+	background:;
+	width:100%;
+	height:100%;
+	float:left;
+	 position:relative;
+}
+
+
+#logo {
+	background:url(../img/logo.png) no-repeat center center; 
+	background-repeat: no-repeat;
+	
+	background:;
+	width:53%;
+	height:65%;
+	margin-left:5%;
+	margin-right:42%;
+	margin-top:10%;
+	margin-bottom:25%;
+	float:left;
+}
+/*redes sociales */
+#redes_sociales{
+	background:;
+	width:23%;
+	height:59;
+	margin-left:62%;
+	margin-right:15%;
+	margin-top:14%;
+	position:absolute;
+	
+}
+#redes_sociales ul {
+	list-style: none;
+	overflow: hidden;
+	margin-top:0;
+}
+
+#redes_sociales ul li{
+	background:;
+	float: left;
+	height:59;
+	width: 27%;
+	margin-left:2;
+	margin-top:;
+}
+
+#redes_sociales ul a{
+	background:;
+	text-decoration: none;/*no mostrar la lina de abajo */
+	display: block;
+	margin-left:;
+	width: 59;
+	height:59;
+	margin-left:10;
+}
+
+#redes_sociales ul #twitter{
+	background-image:url(../img/twitter-gris.png) ;
+	background-repeat: no-repeat;
+}
+
+#redes_sociales ul #twitter:hover{
+	background-image:url(../img/twitter-hover.png) ;
+	background-repeat: no-repeat;
+}
+
+#redes_sociales ul #facebook{
+	background-image:url(../img/facebook-gris.png) ;
+	background-repeat: no-repeat;
+}
+
+#redes_sociales ul #facebook:hover{
+	background-image:url(../img/facebook-hover.png) ;
+	background-repeat: no-repeat;
+}
+
+#redes_sociales ul #tuenti{
+	background-image:url(../img/tuenti-gris.png) ;
+	background-repeat: no-repeat;
+}
+
+#redes_sociales ul #tuenti:hover{
+	background-image:url(../img/tuenti-hover.png) ;
+	background-repeat: no-repeat;
+}
+
+
+/*fin redes sociales */
+
+#menu_principal{
+	background:;
+	width:23%;
+	height:39%;
+	margin-left:62%;
+	margin-right:15%;
+	margin-top:16%;
+	position:absolute;
+
+}
+
+/*----- Slider Boton Control fiestas------*/
+.boton-fiestas {
+   width: 250px;
+   overflow: hidden;
+   position: absolute;
+   left:0px;
+   top:100px;
+   padding:10px 0;
+}
+ 
+.boton-fiestas a.buttons {
+   display: block;
+   width: 168px;
+   height: 52px;
+   float: right;
+   text-indent: -9999px;
+   background: url(../img/boton-fiesta.png) no-repeat scroll 0 center transparent;
+   -webkit-transition: weight 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+ 
+.boton-fiestas span {
+    display: block;
+    width: 7px;
+    height: 71px;
+    position: absolute;
+    right: -2;
+    top: 0;
+    background: url(../img/sombra-boton.png) no-repeat scroll right center;
+}
+ 
+.boton-fiestas a:hover{
+   width: 190px;
+}
+
+   
+ /*----- Slider Boton Control discos------*/
+.boton-discos {
+   width: 250px;
+   overflow: hidden;
+   position: absolute;
+   left:0px;
+   top:170px;
+   padding:10px 0;
+}
+ 
+.boton-discos a.buttons {
+   display: block;
+   width: 155px;
+   height: 52px;
+   float: right;
+   text-indent: -9999px;
+   background: url(../img/boton-discos.png) no-repeat scroll 0 center transparent;
+   -webkit-transition: weight 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+ 
+.boton-discos span {
+    display: block;
+    width: 7px;
+    height: 71px;
+    position: absolute;
+    right: -2;
+    top: 0;
+    background: url(../img/sombra-boton.png) no-repeat scroll right center;
+}
+ 
+.boton-discos a:hover{
+   width: 170px;
+}
+  
+  /*----- Slider Boton Control dj------*/
+.boton-dj {
+   width: 250px;
+   overflow: hidden;
+   position: absolute;
+   left:0px;
+   top:240px;
+   padding:10px 0;
+}
+ 
+.boton-dj a.buttons {
+   display: block;
+   width: 102px;
+   height: 52px;
+   float: right;
+   text-indent: -9999px;
+   background: url(../img/boton-dj.png) no-repeat scroll 0 center transparent;
+   -webkit-transition: weight 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+ 
+.boton-dj span {
+    display: block;
+    width: 7px;
+    height: 71px;
+    position: absolute;
+    right:-2;
+    top: 0;
+    background: url(../img/sombra-boton.png) no-repeat scroll right center;
+}
+ 
+.boton-dj a:hover{
+   width: 120px;
+}  
+
+  /*----- Slider Boton Control mapa------*/
+.boton-mapa {
+   width: 250px;
+   overflow: hidden;
+   position: absolute;
+   left:0px;
+   top:310px;
+   padding:10px 0;
+}
+ 
+.boton-mapa a.buttons {
+   display: block;
+   width: 157px;
+   height: 52px;
+   float: right;
+   text-indent: -9999px;
+   background: url(../img/boton-mapa.png) no-repeat scroll 0 center transparent;
+   -webkit-transition: weight 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+ 
+.boton-mapa span {
+    display: block;
+    width: 7px;
+    height: 71px;
+    position: absolute;
+    right: -2;
+    top: 0;
+    background: url(../img/sombra-boton.png) no-repeat scroll right center;
+}
+ 
+.boton-mapa a:hover{
+   width: 175px;
+}  
+
+.pie_de_pagina{
+	background:#afafaf;
+	width: 100%;
+    height: 222;
+	margin-top:650;
+	
+
+}
+/*descricion*/
+#descricion {
+	background:;
+	width: 231;
+    height: 159;
+	margin-top:13;
+	margin-left:71;
+	float: left;
+	position: absolute;
+	 
+}
+
+#logotipo{
+	background:url(../img/logotipo.png) no-repeat center;
+	position: absolute;
+	width: 173;
+    height: 91;
+	margin-left:32;
+}
+
+#objetivo {
+	background:;
+	margin:0px 0px 0px 0px;
+	width: 209;
+    height: 31;
+	margin-top:-5;
+	margin-left:10;
+	float:left;
+	position: absolute;
+}
+#objetivo p{ 
+	width: 209;
+    height: 31;
+	color:#ffffff;
+	font-family:"Kozuka Gothic Pro";
+	font-size:10pt;
+	margin-top:107;
+	margin-left:4;
+}
+
+#descricion #lina-separacion{
+	background:url(../img/linea-separacion.png) repeat center;
+	width: 3;
+    height:159;
+	float:right;
+}
+
+/*ultimas fiestas*/
+#ultimas_fiestas{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 159;
+	margin-left:300;
+	margin-top:13;
+	float: left;
+}
+
+#ultimas_fiestas #enunciado{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 30;
+	float: left;
+}
+#ultimas_fiestas #contenido{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+#ultimas_fiestas #lina-separacion{
+	background:url(../img/linea-separacion.png) repeat center;
+	position: absolute;
+	width: 3;
+    height:159;
+	margin-left:290;
+	float:right;
+	
+}
+
+/*sugerencia*/
+#sugerencia{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 159;
+	margin-left:593;
+	margin-top:13;
+	float: left;
+}
+
+#sugerencia #enunciado{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 30;
+	float: left;
+	
+}
+#sugerencia #contenido{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+#sugerencia #lina-separacion{
+	background:url(../img/linea-separacion.png) repeat center;
+	position: absolute;
+	width: 3;
+    height:159;
+	margin-left:324;
+	
+}
+
+/*top_disco*/
+#top_disco{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 159;
+	margin-left:919;
+	margin-top:13;
+	float: left;
+}
+
+#top_disco #enunciado{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 30;
+	float: left;
+}
+#top_disco #contenido{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+
+
+/*info*/
+#info_web{
+	background:;
+	position: absolute;
+	width: 1124;
+    height: 38;
+	margin-left:71;
+	margin-top:183;
+}
+#info_web hr{margin-top:0;}
+#ultimas_fiestas hr,#sugerencia hr, #top_disco hr { width:90%; margin-top:-23; }
+
+#enunciado h3 { 
+	background:;
+	font-family:"Kozuka Gothic Pro";
+	font-size:14pt;
+	color:2c3033;
+	margin-top:9px;
+	margin-left:12px;
+	width:90%;
+}
+
+#info_web h3 { 
+	
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	color:2c3033;
+	margin-top:9px;
+	margin-left:12px;
+	width:90%;
+}
+
+#contenido ul {
+background:;
+  list-style: none;
+  margin: 16;
+  padding: 0;
+  width: 261px;
+  font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+
+  }
+  
+#contenido ul li  a {
+	color:#ffffff; 
+	text-decoration: none; 
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#contenido ul li  {
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#info_web ul {
+background:;
+  list-style: none;
+  margin-top: -38;
+  margin-left:118;
+  padding: 0;
+  width: 550px;
+  font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+position: absolute;
+
+  }
+  
+#info_web ul li  a {
+	color:#ffffff; 
+	text-decoration: none; 
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#info_web ul li  {
+	padding: .2em 0 .2em .5em;
+	display: inline;
+	margin:10;
+}
+
+#lina-separacion1{
+	background:url(../img/linea-separacion-1.png) repeat center;
+	width: 2;
+    height:20;
+	margin-top:-19;
+	margin-left:140;
+}
+
+#lina-separacion2	{
+	background:url(../img/linea-separacion-1.png) repeat center;
+	width: 2;
+    height:20;
+	margin-top:-20;
+	margin-left:330;

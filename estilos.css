@@ -1,0 +1,484 @@
+body{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px px px;
+	width:100%;
+	height:100%;
+	
+}
+
+/*ENCABEZADO */
+
+#encabezado{
+	background:;
+	width:100%;
+	height:85;
+}
+#encabezado hr{margin-top:0; position:relative top;}
+
+#menu_de_navegacion{
+	background:afafaf;
+	width:89%;
+	height:85;
+	margin-left:5%;
+	-webkit-border-radius:0px 0px 20px 20px   ;  /* Safari  */
+	-moz-border-radius: 20px ;     /* Firefox */
+	margin-top:-16;
+	position:relative ;
+
+
+}
+
+#menu_de_navegacion ul {
+	list-style: none;
+	background:;
+}
+
+#menu_de_navegacion ul li{
+	background:;
+	float: left;
+	width: 19.5%;
+	height:85;
+	margin-left:-2.5;
+
+}
+
+#menu_de_navegacion ul a{
+	background:;
+	font-family:"Bauhaus 93";
+	font-size:20pt;
+	text-decoration: none;/*no mostrar la lina de abajo */
+	color:ffffff;
+	display: block;
+	margin-left:2%;
+	width: 100%;
+	height:60;
+	text-align: center;
+	padding-top:25;
+	background-image:url(img/separacion-menu.png) ;
+	background-repeat: repeat-y;
+}
+#menu_de_navegacion ul #logoo{
+	background-image:url(img/logo-menu.png) ;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	
+	
+}
+#menu_de_navegacion ul  :hover{
+	color:#cb6d42;
+	
+}
+
+#linea_menu{width: 6; height:85; background-image:url(img/separacion-menu.png) ; background-repeat: repeat-y; margin-left:450;position:absolute;}
+#linea_menu1{width: 6; height:85; background-image:url(img/separacion-menu.png) ; background-repeat: repeat-y; margin-left:1070; float:left;position:absolute;}
+
+/*FIESTAS */
+
+#fistas{
+	background:;
+	margin-top:377;
+	width:100%;
+	height:auto;
+	margin-left:0;
+	margin-top:0;
+	
+	
+}
+
+#linea_separacion{
+	width:90%;
+	padding-top:10;
+	margin-left:5%;
+
+}
+
+#slideshow{
+	width:75%;
+	height:355;
+	margin-left:12%;
+	margin-top:50;
+}
+
+
+
+
+	
+#galeria{
+
+	background:;
+	width:100%;
+	height:2800;
+	margin-top:10;
+	font-family:"Berlin Sans FB";
+	color:#747474;
+	background-image:url(imagenes/logo_desgrado.png) ;
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+}
+
+#columna1{
+	background:;
+	width:248;
+	height:auto;
+	margin-left:0%;
+	position:absolute;
+	float:left;
+	margin-top:30;
+}
+
+#columna2{
+	background:;
+	width:248;
+	height:auto;
+	margin-left:20%;
+	position:absolute;
+	float:left;
+	margin-top:30;
+}	
+	
+#columna3{
+	background:;
+	width:248;
+	height:auto;
+	margin-left:40%;
+	position:absolute;
+	margin-top:30;
+}	
+
+#columna4{
+	background:;
+	width:248;
+	height:auto;
+	margin-left:60%;
+	position:absolute;
+	margin-top:30;
+}	
+
+#columna5{
+	background:;
+	width:248;
+	height:auto;
+	margin-left:80%;
+	position:absolute;
+	margin-top:30;
+}	
+
+/*stilos para los hover fotos*/
+img.linkopacity{
+        filter:alpha(opacity=50);
+        -moz-opacity: 0.5;
+        opacity: 0.5;
+        -khtml-opacity: 0.5;
+}
+ 
+img.linkopacity:hover  {
+        filter:alpha(opacity=100);  
+        -moz-opacity: 1.0;  
+        opacity: 1.0;
+        -khtml-opacity: 1.0; 
+		}
+/*fin de stilos para los hover fotos*/			
+	
+#carteles1,#carteles2,#carteles3,#carteles4,#carteles5,#carteles6,#carteles7,#carteles8,#carteles9,#carteles10,#carteles11,#carteles12,#carteles13,#carteles14,#carteles15,#carteles16,#carteles17,#carteles18,#carteles19,#carteles20,#carteles21,#carteles22,#carteles23,#carteles24,#carteles25{
+	-webkit-border-radius: 10px ;  /* Safari  */
+	-moz-border-radius: 10px ;     /* Firefox */
+	background:c8c8c7;
+	width:228;
+    float:left;
+	box-shadow: 5px 5px 5px #222222;
+	height:auto;
+	margin-top:20;
+	margin-left:20;
+	
+}
+
+
+#carteles1 img,#carteles2 img,#carteles3 img,#carteles4 img,#carteles5 img,#carteles6 img,#carteles7 img,#carteles8 img,#carteles9 img,#carteles10 img, #carteles11 img,#carteles12 img,#carteles13 img,#carteles14 img,#carteles15 img,#carteles16 img,#carteles17 img,#carteles18 img,#carteles19 img,#carteles20 img,#carteles21 img,#carteles22 img,#carteles23 img,#carteles24 img,#carteles25 img{ 
+	margin-top:2px; margin-left: 2px; float:left;
+	
+}
+
+#galeria h3,#galeria h5{
+	padding-left:5;
+	margin-top:8;
+	margin-bottom:2;
+	padding-bottom:2;
+	float:left;
+}
+
+#texto hr {width:216;}
+#info {
+	-webkit-border-radius: 0px 0px 10px 10 px;  /* Safari  */
+	-moz-border-radius: 0px 0px 10px 10 px;      /* Firefox */
+	background:#747474;
+	width:224;
+	height:40;
+ 	margin-left:2;
+	float:left;
+	margin-bottom:2;
+	
+}
+#contador   {margin-left:10; color:#c8c8c7; margin-top:10; position:absolute;}
+#ojo img{margin-top:10; margin-left:10;}
+#separador  img{height:80%; margin-top:5; margin-left:115; margin-right:3;}
+#face  img,#twitter-info  img{margin:5px; margin-top:10;}
+
+
+/*pie de pagina*/
+
+.pie_de_pagina{
+	background:#afafaf;
+	width: 100%;
+    height: 222;
+	float:left;
+}
+/*descricion*/
+#descricion {
+	background:;
+	width: 231;
+    height: 159;
+	margin-top:13;
+	margin-left:71;
+	float: left;
+	position: absolute;
+	
+}
+
+#logotipo{
+	background:url(img/logotipo.png) no-repeat center;
+	position: absolute;
+	width: 173;
+    height: 91;
+	margin-left:32;
+}
+
+#objetivo {
+	background:;
+	margin:0px 0px 0px 0px;
+	width: 209;
+    height: 31;
+	margin-top:-5;
+	margin-left:10;
+	float:left;
+	position: absolute;
+}
+#objetivo p{ 
+	width: 209;
+    height: 31;
+	color:#ffffff;
+	font-family:"Kozuka Gothic Pro";
+	font-size:10pt;
+	margin-top:107;
+	margin-left:4;
+}
+
+#descricion #lina-separacion{
+	background:url(img/linea-separacion.png) repeat center;
+	width: 3;
+    height:159;
+	float:right;
+}
+
+/*ultimas fiestas*/
+#ultimas_fiestas{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 159;
+	margin-left:300;
+	margin-top:13;
+	float: left;
+}
+
+#ultimas_fiestas #enunciado{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 30;
+	float: left;
+}
+#ultimas_fiestas #contenido{
+	background:;
+	position: absolute;
+	width: 293;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+#ultimas_fiestas #lina-separacion{
+	background:url(img/linea-separacion.png) repeat center;
+	position: absolute;
+	width: 3;
+    height:159;
+	margin-left:290;
+	float:right;
+	
+}
+
+/*sugerencia*/
+#sugerencia{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 159;
+	margin-left:593;
+	margin-top:13;
+	float: left;
+}
+
+#sugerencia #enunciado{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 30;
+	float: left;
+	
+}
+#sugerencia #contenido{
+	background:;
+	position: absolute;
+	width: 326;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+#sugerencia #lina-separacion{
+	background:url(img/linea-separacion.png) repeat center;
+	position: absolute;
+	width: 3;
+    height:159;
+	margin-left:324;
+	
+}
+
+/*top_disco*/
+#top_disco{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 159;
+	margin-left:919;
+	margin-top:13;
+	float: left;
+}
+
+#top_disco #enunciado{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 30;
+	float: left;
+}
+#top_disco #contenido{
+	background:;
+	position: absolute;
+	width: 261;
+    height: 129;
+	float: left;
+	margin-top:30;
+}
+
+
+
+/*info*/
+#info_web{
+	background:;
+	position: absolute;
+	width: 1124;
+    height: 38;
+	margin-left:71;
+	margin-top:183;
+}
+#info_web hr{margin-top:0;}
+#ultimas_fiestas hr,#sugerencia hr, #top_disco hr { width:90%; margin-top:-23; }
+
+#enunciado h3 { 
+	background:;
+	font-family:"Kozuka Gothic Pro";
+	font-size:14pt;
+	color:2c3033;
+	margin-top:9px;
+	margin-left:12px;
+	width:90%;
+}
+
+#info_web h3 { 
+	
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	color:2c3033;
+	margin-top:9px;
+	margin-left:12px;
+	width:90%;
+}
+
+#contenido ul {
+background:;
+  list-style: none;
+  margin: 16;
+  padding: 0;
+  width: 261px;
+  font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+
+  }
+  
+#contenido ul li  a {
+	color:#ffffff; 
+	text-decoration: none; 
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#contenido ul li  {
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#info_web ul {
+background:;
+  list-style: none;
+  margin-top: -38;
+  margin-left:118;
+  padding: 0;
+  width: 550px;
+  font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+position: absolute;
+
+  }
+  
+#info_web ul li  a {
+	color:#ffffff; 
+	text-decoration: none; 
+	font-family:"Kozuka Gothic Pro";
+	font-size:12pt;
+	padding: .2em 0 .2em .5em;
+	
+}
+
+#info_web ul li  {
+	padding: .2em 0 .2em .5em;
+	display: inline;
+	margin:10;
+}
+
+#lina-separacion1{
+	background:url(img/linea-separacion-1.png) repeat center;
+	width: 2;
+    height:20;
+	margin-top:-19;
+	margin-left:140;
+}
+
+#lina-separacion2	{
+	background:url(img/linea-separacion-1.png) repeat center;
+	width: 2;
+    height:20;
+	margin-top:-20;
+	margin-left:330;
